@@ -17,19 +17,19 @@ const styles = theme => ({
     borderRadius: '8px',
     marginTop: '32px',
     border: `4px solid ${theme.palette.primary.main}`,
-    width: '500px',
-    height: '250px',
+    width: '520px',
+    height: '240px',
     background: theme.palette.secondary.main
   },
   container: {
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
-    height: '%100'
+    alignItems: 'center'
   },
   logoContainer: {
     display: 'flex',
+    flexWrap: 'wrap',
     justifyContent: 'space-around',
     width: '80%',
     margin: '32px',
@@ -39,8 +39,8 @@ const styles = theme => ({
     background: theme.palette.secondary.main
   },
   icon: {
-    height: '150px',
-    width: '150px'
+    height: '160px',
+    width: '160px'
   }
 })
 

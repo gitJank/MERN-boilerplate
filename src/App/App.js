@@ -6,7 +6,6 @@ import CssBaseline from '@material-ui/core/CssBaseline'
 
 import HomePage from '../HomePage/HomePage'
 import theme from './App.theme'
-import '../../styles.css'
 
 ReactDOM.render(
   <MuiThemeProvider theme={theme}>
