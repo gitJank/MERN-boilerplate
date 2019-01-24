@@ -2,7 +2,7 @@ import React from 'react'
 import mongoImport from './MongodbLogo.png'
 import nodejsImport from './NodejsLogo.png'
 import expressImport from './ExpressjsLogo.png'
-import ReactImport from './ReactIcon.svg'
+import reactImport from './ReactLogo.png'
 
 export const MongoIcon = props => {
   return <img src={mongoImport} alt="" {...props} />
@@ -17,5 +17,5 @@ export const ExpressIcon = props => {
 }
 
 export const ReactIcon = props => {
-  return <ReactImport {...props} />
+  return <img src={reactImport} alt="" {...props} />
 }
